@@ -1,0 +1,21 @@
+# Environment Variables
+.env
+
+# Uploads
+uploads/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / Training Files
+notebooks/
+cleaned_data/
+data/
