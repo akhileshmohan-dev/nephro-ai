@@ -61,7 +61,7 @@ function ManualEntry() {
   try {
 
     const response = await axios.post(
-      `${API_URL}/endpoint`,
+      `${API_URL}/predict-manual`,
       cleanedData
     );
 
