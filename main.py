@@ -87,14 +87,14 @@ def predict_manual(data: dict):
         "prediction_result": prediction,
         "ai_explanation": ai_explanation
     }
+    print("RESULT =", result)
+    return result
 
     # try:
     #     create_ckd_assessment(result, None)
     # except Exception as e:
     #     print("ERP ERROR:", e)
-
-    # return result
-
+    
     
 @app.post("/predict-report")
 async def predict_report(

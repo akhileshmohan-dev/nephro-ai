@@ -79,7 +79,7 @@ Instead say:
 
     except Exception as e:
         print("Gemini Error:", e)
-
+        
         return f"""
 ## Clinical Summary
 AI-generated explanation is temporarily unavailable.
