@@ -65,15 +65,14 @@ className="border-2 border-slate-900 font-bold text-slate-900 px-8 py-4 rounded-
               src="/models/kidney.glb"              
               auto-rotate
               camera-controls
-              alt="Astronaut"
-              shadow-intensity="1"
-              exposure="1"  
+              alt="Astronaut" 
               reveal="auto"
+              exposure="1"
               loading="eager"
               style={{
                 width: "500px",
                 height: "500px",
-                backgroundColor: "#f5f5f5"
+                backgroundColor: "#ffffff"
               }}
             >
 
