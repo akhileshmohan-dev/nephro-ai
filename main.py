@@ -88,8 +88,12 @@ def predict_manual(data: dict):
         "ai_explanation": ai_explanation
     }
 
-    create_ckd_assessment(result, None)
-    return result
+    # try:
+    #     create_ckd_assessment(result, None)
+    # except Exception as e:
+    #     print("ERP ERROR:", e)
+
+    # return result
 
     
 @app.post("/predict-report")
