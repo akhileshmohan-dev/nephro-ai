@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 
 model = joblib.load(
-    r"C:\Users\Gopi mohan\Desktop\erp-ai-pipeline-project\ml\ckd_model.pkl"
+    r"ml/ckd_model.pkl"
 )
 
 features = [
