@@ -1,13 +1,18 @@
 import requests
 import os
 
+from dotenv import load_dotenv
 from datetime import datetime
+
+load_dotenv()
 
 ERP_URL = os.getenv("ERP_URL")
 API_KEY = os.getenv("API_KEY")
 API_SECRET = os.getenv("API_SECRET")
 
 
+# print("ERP_URL:", ERP_URL)
+# print("API_KEY:", API_KEY)
 # ERP_URL = "http://127.0.0.1:8000"
 
 # API_KEY = "8103343510aea5e"
