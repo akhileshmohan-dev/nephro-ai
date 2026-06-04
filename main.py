@@ -108,7 +108,7 @@ async def predict_report(
         )
 
     result = predict_from_report(save_path)
-    create_ckd_assessment(result,save_path)
+    # create_ckd_assessment(result,save_path)
 
 
     try:
