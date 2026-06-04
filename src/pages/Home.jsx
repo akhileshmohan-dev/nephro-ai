@@ -57,20 +57,45 @@ className="border-2 border-slate-900 font-bold text-slate-900 px-8 py-4 rounded-
         </div>
       </div>
 
-
       <div className="flex justify-center">
+        <div className="relative">
+          
+            <div className="h-[500px] w-[500px]">
+              <model-viewer
+              src="/models/kidney.glb"              
+              auto-rotate
+              camera-controls
+              alt="Astronaut"
+              shadow-intensity="1"
+              exposure="1"  
+              reveal="auto"
+              loading="eager"
+              style={{
+                width: "500px",
+                height: "500px",
+                backgroundColor: "#f5f5f5"
+              }}
+            >
+
+            </model-viewer>
+            </div>
+        </div>
+      </div>
+      {/* <div className="flex justify-center">
 
   <div className="relative">
     <div className="h-[500px] w-[500px]">
   <model-viewer
-    src="/models/kidney.glb"   
+    // src="/models/kidney.glb"   
+      src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
+
     auto-rotate
     camera-controls
     style={{ width: "100%", height: "100%" }}
   />
 </div>
 </div>
-</div>
+</div> */}
    
     {/* <div className="absolute inset-0 bg-blue-500/10 blur-3xl rounded-full"></div>
     <img
