@@ -5,7 +5,7 @@ from feature_engineering import engineer_features
 from pipeline.predict_ckd import predict_ckd
 from ai_explainer import generate_clinical_explanation
 
-
+import os
 
 from datetime import datetime
 
@@ -99,6 +99,8 @@ async def predict_report(
 
     save_path = f"uploads/{file.filename}"
 
+    os.makedirs("uploads",exist_ok=True)
+    
     with open(save_path, "wb") as buffer:
         shutil.copyfileobj(
             file.file,
