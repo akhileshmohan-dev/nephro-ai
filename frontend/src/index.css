@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  font-family: Inter, sans-serif;
+}
+
+:root {
+
+  --primary: #0A1628;
+
+  --accent: #00B8A9;
+
+  --background: #F7F9FC;
+
+  --card: #FFFFFF;
+
+  --text: #1F2937;
+
+  --muted: #6B7280;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--background);
+  color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+@keyframes gradient-shift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-shift {
+  animation: gradient-shift 8s ease-in-out infinite;
+  background-size: 200% 100%;
+}
+
+@keyframes tw-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+.tw-cursor {
+  display: inline-block;
+  line-height: 1;
+  margin-left: 0.25rem;
+  animation: tw-blink 1s steps(2, start) infinite;
+  color: #3b82f6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'DM Sans', sans-serif;
+}
