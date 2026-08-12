@@ -15,8 +15,6 @@ print("ERP_URL =",ERP_URL)
 # print("API_KEY:", API_KEY)
 # ERP_URL = "http://127.0.0.1:8000"
 
-# API_KEY = "8103343510aea5e"
-# API_SECRET = "6d1d8e12170dfcc"
 
 
 def create_ckd_assessment(result,pdf_path=None):
